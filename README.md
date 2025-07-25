@@ -29,7 +29,7 @@ Node.js, Express.js, MySQL, ChromaDB, AWS SDK
 **AI and Infrastructure**:  
 TensorFlow.js for face embeddings  
 LangChain for RAG pipeline  
-Kafka for streaming (optional component)
+Kafka for streaming
 
 ## Face Matching Workflow
 
