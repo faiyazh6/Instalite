@@ -41,7 +41,7 @@ Kafka for streaming (optional component)
 
 ## Chatbot Architecture (RAG)
 
-1. User uploads a document (e.g., syllabus, policy PDF).
+1. User enters in a question/statement/any form of inquiry.
 2. Text is chunked, embedded, and stored in ChromaDB.
 3. At query time, LangChain retrieves relevant chunks.
 4. A language model generates a context-aware answer based on retrieved content.
