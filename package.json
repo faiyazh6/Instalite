@@ -1,0 +1,53 @@
+{
+  "name": "instalite-backend",
+  "version": "1.0.0",
+  "description": "Backend for image upload and matching module",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start-kafka": "node app.js",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "start-chatbot": "node chatbot/chatbot.js"
+  },
+  "dependencies": {
+    "@langchain/community": "^0.3.42",
+    "@langchain/core": "^0.3.45",
+    "@langchain/openai": "^0.5.10",
+    "aws-sdk": "^2.1692.0",
+    "axios": "^1.8.4",
+    "bcrypt": "^5.1.1",
+    "chromadb": "^2.2.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^4.18.2",
+    "express-session": "^1.18.1",
+    "jsonwebtoken": "^9.0.2",
+    "kafkajs": "^2.2.4",
+    "kafkajs-snappy": "^1.1.0",
+    "langchain": "^0.3.23",
+    "multer": "^1.4.4",
+    "mysql2": "^3.14.0",
+    "openai": "^4.95.1",
+    "react-router-dom": "^7.5.1"
+  },
+  "devDependencies": {
+    "@jest/globals": "^29.7.0",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0",
+    "socket.io": "^4.8.1",
+    "socket.io-client": "^4.8.1",
+    "why-is-node-running": "^3.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/upenn-nets-2120/project-instalite-2120-instagram-clone-group.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/upenn-nets-2120/project-instalite-2120-instagram-clone-group/issues"
+  },
+  "homepage": "https://github.com/upenn-nets-2120/project-instalite-2120-instagram-clone-group#readme"
+}

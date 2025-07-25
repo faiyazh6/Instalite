@@ -1,0 +1,10 @@
+# ignore chroma data
+chroma.log
+chromadb/
+# ignore uploads if you don't want to include them
+instalite-backend/uploads/
+uploads/
+node_modules/
+chroma_data/
+.env
+node_modules/
